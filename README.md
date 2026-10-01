@@ -1,21 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Pratika PDV para Android
 
-# Run and deploy your AI Studio app
+Aplicativo Android que abre a plataforma web do **Pratika PDV** em `https://pratika.app.br`. A interface e as funções de negócio são servidas pela plataforma web; o aplicativo fornece o contêiner Android e integrações necessárias para navegação e recursos do dispositivo.
 
-This contains everything you need to run your app locally.
+## Tecnologia
 
-View your app in AI Studio: https://ai.studio/apps/c95caf9b-0db8-4ca7-9728-7df597c251c9
+Projeto Android em Kotlin, com Jetpack Compose e uma visualização WebView.
 
-## Run Locally
+## Abrir e compilar
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+Abra o projeto no Android Studio e sincronize o Gradle. As configurações locais de SDK e assinatura dependem do ambiente de desenvolvimento; consulte os arquivos Gradle do projeto.
